@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Instagram Follower Bot</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Instagram Follower Bot</h2>
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your Instagram username"
+        />
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your Instagram password"
+        />
+      </div>
+      <div class="input-group">
+        <label for="targetUsername">Target Username:</label>
+        <input
+          type="text"
+          id="targetUsername"
+          placeholder="Enter the username of the account to follow"
+        />
+      </div>
+      <button class="btn" onclick="startBot()">Start Bot</button>
+      <div id="result"></div>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
